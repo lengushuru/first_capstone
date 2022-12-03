@@ -84,7 +84,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://lengushuru.github.io/Lengushuru-portfolio/)
+- [Live Demo Link](https://lengushuru.github.io/first_capstone/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
