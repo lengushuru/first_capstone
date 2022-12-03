@@ -18,6 +18,7 @@ ul {
 }
 
 html {
+  /* font-size: 62.5%; */
   scroll-behavior: smooth;
   overflow-x: hidden;
   width: 100vw;
@@ -28,6 +29,9 @@ html {
 }
 
 .mobile-menu {
+  /* display: none; */
+
+  /* color: #fff; */
   position: absolute;
 }
 
@@ -186,8 +190,8 @@ footer p {
 }
 
 .event1 {
-  width: 70%;
-  height: 28vh;
+  width: 60%;
+  height: 18vh;
   contain: content;
 }
 
@@ -205,6 +209,7 @@ footer p {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
+  text-align: center;
   justify-content: center;
   cursor: pointer;
   color: #fff;
@@ -242,7 +247,7 @@ footer p {
   height: 1px;
   width: 40px;
   margin-top: 12px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .underline1 {
@@ -313,7 +318,7 @@ footer p {
 }
 
 .speakers {
-  background-color: var(--gray);
+  background-color: rgb(245, 245, 245);
   color: var(--black);
   padding: 0 20px;
   padding-bottom: 30px;
@@ -411,6 +416,34 @@ footer h2 {
   background-position: center;
 }
 
+.abt-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.abt-logo p {
+  font-size: 12px;
+  color: var(--black);
+}
+
+.abt-logo h3 {
+  font-size: 15px;
+  margin-top: 18px;
+}
+
+.about-logo {
+  width: 50%;
+  height: 100px;
+  border: 2px solid rgb(223, 219, 219);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
 /* ========================================================Desktop styles========================================================================== */
 @media all and (min-width: 768px) {
   .mobile-menu {
@@ -444,13 +477,17 @@ footer h2 {
   .nav-bar {
     display: flex;
     align-items: center;
-    height: 50px;
-    background-color: #d3d3d3;
+    height: 60px;
+    background-color: #fff;
     justify-content: space-between;
   }
 
   .nav-bar h2 {
     margin-left: 10%;
+  }
+
+  .nav-bar a {
+    color: #272a31;
   }
 
   .nav-components {
@@ -459,15 +496,17 @@ footer h2 {
     height: 100%;
     gap: 14px;
     margin-right: 15%;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .nav-components a {
+    color: var(--black) !important;
   }
 
   .nav-item5 {
     border: 4px solid var(--red);
     padding: 6px;
-  }
-
-  .nav-components a {
-    color: #272a31;
   }
 
   .nav-components a:hover {
@@ -546,8 +585,6 @@ footer h2 {
     margin: auto;
     align-self: center;
     width: 80%;
-
-    /* background-color: #6070ff; */
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -574,8 +611,8 @@ footer h2 {
   }
 
   .event1 {
-    width: 40%;
-    height: 35vh;
+    width: 25%;
+    height: 25vh;
     contain: content;
   }
 }
