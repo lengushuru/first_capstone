@@ -102,7 +102,7 @@ html {
 .home {
   height: auto;
   width: 100vw;
-  background-image: url(./mobile-background.png);
+  background-image: url(./images/mobile-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 90% 100%;
