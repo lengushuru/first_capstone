@@ -35,7 +35,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📖 Personal portfolio Project](#about-project)
+- 📖 university of samburu tech week website(#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
