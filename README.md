@@ -173,7 +173,6 @@ Feel free to check the [issues page](../../issues/).
 <!-- > Write a message to encourage readers to support your project -->
 
 If you like this project Give a ⭐️!
-shout out to Cindy Shin whose design was helpful during building of this page 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
